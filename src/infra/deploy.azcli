@@ -1,0 +1,4 @@
+# az login
+# az account set --subscription ""
+az group create --name nl-stu-jvw-lt --location swedencentral
+az deployment group create --resource-group nl-stu-jvw-lt --template-file main.bicep --mode Complete
